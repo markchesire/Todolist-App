@@ -1,0 +1,100 @@
+
+body{
+	padding:0;
+	margin:0;
+	background-color:;
+}
+li{
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:;
+	border:1px solid #000;
+}
+a{
+	display:block;
+	padding:0px;
+	text-decoration:none;
+	background-color:;
+	color:#009;
+}
+a:hover {
+	background-color:;
+	color:#ff0000;
+}
+
+article{
+	max-width:50%;
+	height:90%;
+	background-color:#867979;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color:#ffffff;
+	font: 30px/30px  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+#content{
+	margin-top:-40%;
+	height: 10%;
+}
+p{text-align:center;margin-top: 0px;}
+input{text-align: center;margin-left:50px;font: 30px/30px  "Trebuchet MS", Arial, Helvetica, sans-serif;}
+select{margin-left:25px;text-align:center;font: 30px/30px  "Trebuchet MS", Arial, Helvetica, sans-serif;}
+button{font: 30px/30px  "Trebuchet MS", Arial, Helvetica, sans-serif;margin-left: 30%;border-radius: 10px}
+article{text-align: center;padding-top: 50px;}
+table.timecard {
+	margin: auto;
+	width: 650px;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: hidden;
+}
+
+
+
+table.timecard thead th {
+	padding: 8px;
+	background-color: #fde9d9;
+	font-size: large;
+}
+
+table.timecard thead th#thNo {
+	width: 1%;	
+}
+table.timecard thead th#thDesc {
+	width: 50%;	
+}
+table.timecard thead th#thTime {
+	width: 18%;	
+}
+table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+	width: ;
+}
+
+table.timecard th, table.timecard td {
+	background-color: #fde9d9;
+	padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f79646 #ccc;
+}
+
+table.timecard td {
+	text-align: right;
+}
+
+table.timecard tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+table.timecard tr.even {
+	background-color: #fde9d9;
+}
+form{
+	float:left;
+}
+input{
+	float: right;
+}
